@@ -1,0 +1,103 @@
+@import"/css/pcmain.css"(min-width: 960px);
+@import"/css/pemain.css"(max-width: 959px);
+
+
+html,
+body {
+    background-color: rgb(51, 52, 52);
+    background-image: url(https://patchwiki.biligame.com/images/blhx/a/a9/1urw280rzvrez3ozgmrx4ion285z8oi.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    width: 4px;
+    height: 4px
+}
+
+html::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: rgba(0, 0, 0, .2)
+}
+
+html::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    border-radius: 0;
+    background: #6cf
+}
+
+h1 {
+    font-size: 30px;
+    color: white;
+    font-family: "Microsoft Yahei Light","PingFangSC-Light","Droid Sans";
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 2px #666;
+}
+
+.words{
+    font-size: 18px;
+    color: white;
+    text-shadow: 2px 2px 2px #666;
+}
+
+a {
+    text-align: center;
+    text-decoration-line: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 10px
+}
+
+a:hover {
+    color: #fff;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff
+}
+
+footer p,
+footer a,
+footer a:hover {
+    font-size: 10px;
+    color: #a9a9a9
+}
+
+#my{
+    color: white;
+    font-size: 18px;
+    text-shadow: 2px 2px 2px #666;
+}
+
+.my-card {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 11px
+}
+
+.information {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 33px 30px 0px;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    background-color: rgba(36, 36, 36, 0.2);
+
+    border-right: 2px rgba(40, 40, 40, .35) solid;
+    border-left: none;
+    left: 10%;
+    right: 10%;
+    top: 10%;
+
+}
+
+/*# sourceMappingURL=main.css.map */
