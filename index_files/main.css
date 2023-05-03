@@ -99,5 +99,17 @@ footer a:hover {
     top: 10%;
 
 }
+.more{
+    position: relative;
+    left: 37.5%;
 
+}
+.btn{
+
+    float: left;
+    margin-right: 20px;
+}
+#go{
+    font-size: 20px;
+}
 /*# sourceMappingURL=main.css.map */
