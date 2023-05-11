@@ -99,6 +99,13 @@ footer a:hover {
     top: 10%;
 
 }
+#avater{
+    position: relative;
+    right: 20px;
+    height: 10%;
+    width: 10%;
+    border-radius: 50%;
+}
 .more{
     position: relative;
     left: 37.5%;
