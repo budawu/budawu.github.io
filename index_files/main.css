@@ -45,11 +45,16 @@ h1 {
 }
 
 .words{
+    position: relative;
+    left: 25%;
     font-size: 18px;
     color: white;
     text-shadow: 2px 2px 2px #666;
 }
-
+#title{
+    position: relative;
+    left: 30%;
+}
 a {
     text-align: center;
     text-decoration-line: none;
@@ -71,6 +76,8 @@ footer a:hover {
 }
 
 #my{
+    position: relative;
+    left: 33%;
     color: white;
     font-size: 18px;
     text-shadow: 2px 2px 2px #666;
@@ -99,11 +106,14 @@ footer a:hover {
     top: 10%;
 
 }
-#avater{
+.a-container{
     position: relative;
-    right: 20px;
-    height: 10%;
-    width: 10%;
+    left: 40%;
+}
+#avater{
+
+    height: 17%;
+    width: 17%;
     border-radius: 50%;
 }
 .more{
@@ -119,4 +129,4 @@ footer a:hover {
 #go{
     font-size: 20px;
 }
-/*# sourceMappingURL=main.css.map */
+
