@@ -83,7 +83,7 @@ footer a:hover {
     height: 30%;
     width: 30%;
     border-radius: 50%;
-    border: white 5px;
+    border: 3px solid #fff;
 }
 .more{
     font-size: 20px;
