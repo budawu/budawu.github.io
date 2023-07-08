@@ -80,9 +80,10 @@ footer a:hover {
     top: 15%;
 }
 #avater{
-    height: 17%;
-    width: 17%;
+    height: 30%;
+    width: 30%;
     border-radius: 50%;
+    border: white 5px;
 }
 .more{
     font-size: 20px;
