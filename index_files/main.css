@@ -1,7 +1,7 @@
 html,
 body {
     background-color: rgb(51, 52, 52);
-    background-image: url(https://patchwiki.biligame.com/images/blhx/a/a9/1urw280rzvrez3ozgmrx4ion285z8oi.png);
+    background-image: url(https://patchwiki.biligame.com/images/blhx/9/90/3y94vrj37udakau1olx54tw6qnoitye.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -72,9 +72,9 @@ footer a:hover {
     display: flex;
     flex-direction: column;
     padding: 33px 11px 22px;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(2.5px);
     border-radius: 10px;
-    background-color: rgba(36, 36, 36, 0.1);
+    background-color: rgba(36, 36, 36, 0.3);
     left: 12%;
     right: 10%;
     top: 15%;
@@ -86,7 +86,7 @@ footer a:hover {
     border: 3px solid #fff;
 }
 .more{
-    font-size: 20px;
+    font-size: 20px !important;
 }
 .more a {
 	margin: 0 7px;
